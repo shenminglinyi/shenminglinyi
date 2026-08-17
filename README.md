@@ -28,11 +28,13 @@
 <!-- ===================== FEATURED ===================== -->
 ## 📦 Featured
 
-### ⭐ [PlotPilot](https://github.com/shenminglinyi/PlotPilot) — 开源剧情引擎内核
+### ⭐ [PlotPilot](https://github.com/shenminglinyi/PlotPilot) — Open-source narrative engine core
 
-> 面向长篇 AI 创作的基础设施：**持久记忆 · 知识图谱 · 自动推进流水线 · 质量治理闭环**
+> Infrastructure for long-form AI creation: **persistent memory · knowledge graph · autonomous pipeline · quality loop**
 
-[![PlotPilot](https://github-readme-stats.vercel.app/api/pin/?username=shenminglinyi&repo=PlotPilot&theme=default&hide_border=true&show_owner=true)](https://github.com/shenminglinyi/PlotPilot)
+<a href="https://github.com/shenminglinyi/PlotPilot">
+  <img width="256" src="./assets/brand/plotpilot-readme.png" alt="PlotPilot" />
+</a>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2" />
 
