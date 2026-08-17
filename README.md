@@ -96,17 +96,17 @@
 
 <br/>
 
-<!-- 🐍 贪吃蛇贡献图：由 .github/workflows/snake.yml 生成到 output 分支 -->
+<!-- 🐍 贪吃蛇贡献图：由 .github/workflows/snake.yml 生成到 main 分支 assets/contrib/ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shenminglinyi/shenminglinyi/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shenminglinyi/shenminglinyi/output/github-contribution-grid-snake.svg" />
-  <img alt="snake animation" src="https://raw.githubusercontent.com/shenminglinyi/shenminglinyi/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contrib/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/contrib/github-contribution-grid-snake.svg" />
+  <img alt="snake animation" src="./assets/contrib/github-contribution-grid-snake.svg" />
 </picture>
 
 <br/>
 
 <!-- 🧊 3D 贡献图：由 .github/workflows/3d-contrib.yml 生成到 main 分支 profile-3d-contrib/ -->
-<img width="95%" src="https://raw.githubusercontent.com/shenminglinyi/shenminglinyi/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3d contribution graph" />
+<img width="95%" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3d contribution graph" />
 
 </div>
 
