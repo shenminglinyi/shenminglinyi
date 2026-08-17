@@ -1,0 +1,41 @@
+name: Generate 3D Contribution Graph
+
+on:
+  # 每天凌晨自动更新一次（UTC，对应北京时间 08:15）
+  schedule:
+    - cron: "15 0 * * *"
+  # 允许在 Actions 页面手动触发
+  workflow_dispatch:
+  # 推送到默认分支时也生成一次，方便首次立即出图
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # 1. 检出仓库，供 Action 写回生成的 SVG
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2. 用 yoshi389111/github-profile-3d-contrib 生成 3D 贡献图，输出到 profile-3d-contrib/
+      - name: Generate 3D contrib
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+
+      # 3. 提交生成的 SVG 回默认分支（README 直接从 main 引用）
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A profile-3d-contrib
+          git diff --staged --quiet || git commit -m "chore: update 3d contrib [skip ci]"
+          git push
