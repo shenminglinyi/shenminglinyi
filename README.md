@@ -16,30 +16,40 @@
 > I work on the layer under the agent — the model, the memory, the retrieval, the pipelines that keep long-horizon creation coherent.
 
 <!-- ===================== ABOUT ===================== -->
-## 🚀 About me
+## About
 
-- 🤖 Building on **AI agents & LLM infra** — from the model layer up to product & the cognitive layer.
-- 🧠 Interested in how **agents remember, reason, and drive long-running creative work**, plus the business side of it.
-- 🛠️ Creator of **[PlotPilot](https://github.com/shenminglinyi/PlotPilot)** — an open-source narrative engine core.
-- 🤝 **Open to collaborating & chatting with interesting people** — reach out if you're into agents, memory, or RAG.
+I build agent infrastructure for long-horizon AI systems: runtime orchestration, persistent memory, retrieval, evaluation loops, and backend architecture that make agents reliable beyond a single prompt.
+
+- Building from the model layer to production runtime: planning, tool execution, memory writeback, RAG quality loops, and product workflows.
+- Creator of **[PlotPilot](https://github.com/shenminglinyi/PlotPilot)**, an open-source narrative engine core for persistent world state, graph-based knowledge, autonomous story pipelines, and quality governance.
+- Competitive programming background with **CCPC Gold** and **ICPC Silver**, with a strong bias toward clean abstractions, algorithmic clarity, and performance-aware engineering.
+- Backend and infra fluency across **Java / Spring Boot**, **FastAPI**, **MySQL / Redis / Kafka / Elasticsearch**, **Docker / Kubernetes**, and Linux systems.
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2" />
 
 <!-- ===================== FEATURED ===================== -->
-## 📦 Featured
+## Featured Work
 
-### ⭐ [PlotPilot](https://github.com/shenminglinyi/PlotPilot) — Open-source narrative engine core
-
-> Infrastructure for long-form AI creation: **persistent memory · knowledge graph · autonomous pipeline · quality loop**
-
-<a href="https://github.com/shenminglinyi/PlotPilot">
-  <img width="256" src="./assets/brand/plotpilot-readme.png" alt="PlotPilot" />
-</a>
+<table>
+  <tr>
+    <td width="290" valign="top">
+      <a href="https://github.com/shenminglinyi/PlotPilot">
+        <img width="260" src="./assets/brand/plotpilot-readme.png" alt="PlotPilot preview" />
+      </a>
+    </td>
+    <td valign="top">
+      <h3><a href="https://github.com/shenminglinyi/PlotPilot">PlotPilot</a></h3>
+      <p><strong>Open-source narrative engine core for long-form AI creation.</strong></p>
+      <p>Designed around persistent memory, knowledge graphs, autonomous generation pipelines, and quality feedback loops, so creative agents can keep story worlds coherent across long runs.</p>
+      <p><a href="https://github.com/shenminglinyi/PlotPilot">View repository</a></p>
+    </td>
+  </tr>
+</table>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2" />
 
 <!-- ===================== WHAT I WORK ON ===================== -->
-## 🧠 What I work on
+## Focus Areas
 
 - **Agent runtime** — multi-agent & subagent orchestration · tool calling & MCP routing/validation · planning & reflection (ReAct / Plan-Execute) · long-horizon task runtime · checkpoint/resume
 - **Agent memory** — multi-tier memory (short-term / mid-term / long-term) · Mem0 · context compression · conflict-resolution writeback
@@ -51,54 +61,24 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2" />
 
 <!-- ===================== TECH STACK ===================== -->
-## 🧰 Tech stack
+## Tech Stack
 
-<div align="center">
+| Layer | Tools |
+| --- | --- |
+| Languages | Python · Java · C++ |
+| Agent / ML | PyTorch · Transformers · LangGraph · Mem0 · RAGAS |
+| Retrieval | Graph-RAG · HippoRAG · Milvus · Faiss · HNSW / IVF |
+| Backend | Spring Boot · FastAPI · Netty |
+| Data / Infra | MySQL · Redis · Kafka · Elasticsearch · Docker · Kubernetes · Linux |
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Transformers](https://img.shields.io/badge/🤗%20Transformers-FFD21E?style=for-the-badge&logoColor=black)
-![Mem0](https://img.shields.io/badge/Mem0-000000?style=for-the-badge&logoColor=white)
-
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
-![Milvus](https://img.shields.io/badge/Milvus-00A1EA?style=for-the-badge&logo=milvus&logoColor=white)
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=py,java,cpp,pytorch,spring,fastapi,mysql,redis,kafka,elasticsearch,docker,kubernetes,linux,git" />
-
-</div>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2" />
 
 <!-- ===================== GITHUB STATS ===================== -->
-## 📊 GitHub Stats
+## Contributions
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=shenminglinyi&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shenminglinyi&layout=compact&theme=default&hide_border=true&langs_count=8" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=shenminglinyi&theme=default&hide_border=true" />
-
-<br/>
-
-<!-- 🐍 贪吃蛇贡献图：由 .github/workflows/snake.yml 生成到 main 分支 assets/contrib/ -->
+<!-- Snake animation: generated by .github/workflows/snake.yml into assets/contrib/. -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/contrib/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/contrib/github-contribution-grid-snake.svg" />
@@ -107,7 +87,7 @@
 
 <br/>
 
-<!-- 🧊 3D 贡献图：由 .github/workflows/3d-contrib.yml 生成到 main 分支 profile-3d-contrib/ -->
+<!-- 3D contribution graph: generated by .github/workflows/3d-contrib.yml into profile-3d-contrib/. -->
 <img width="95%" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3d contribution graph" />
 
 </div>
@@ -115,21 +95,21 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2" />
 
 <!-- ===================== HONORS ===================== -->
-## 🏆 Honors
+## Honors
 
-- 🥇 **CCPC** (China Collegiate Programming Contest) — **Gold Medal**, Harbin site · **Silver Medal**
-- 🥈 **ICPC** (International Collegiate Programming Contest) — **Silver Medal**
-- 🥉 **CCF BDCI** — Bronze, Model Application track
-- 🏅 **MCM/ICM** (Mathematical Contest in Modeling) — Meritorious Winner
-- 🥉 **Kaggle** — Bronze Medal
-- 📜 **Patent** — *LLM-Driven Autonomous Intelligent Firewall*
+- **CCPC** (China Collegiate Programming Contest) — **Gold Medal**, Harbin site · **Silver Medal**
+- **ICPC** (International Collegiate Programming Contest) — **Silver Medal**
+- **CCF BDCI** — Bronze, Model Application track
+- **MCM/ICM** (Mathematical Contest in Modeling) — Meritorious Winner
+- **Kaggle** — Bronze Medal
+- **Patent** — *LLM-Driven Autonomous Intelligent Firewall*
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2" />
 
 <!-- ===================== CONTACT ===================== -->
-## 📫 Contact
+## Contact
 
-**📧 linyiforce@gmail.com** — always up for a good conversation with interesting people.
+**linyiforce@gmail.com** — always up for a good conversation with interesting people.
 
 <div align="center">
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" />
