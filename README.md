@@ -118,9 +118,9 @@
 - 🥇 **CCPC** (China Collegiate Programming Contest) — **Gold Medal**, Harbin site · **Silver Medal**
 - 🥈 **ICPC** (International Collegiate Programming Contest) — **Silver Medal**
 - 🥉 **CCF BDCI** — Bronze, Model Application track
-- 🏅 **MCM/ICM** (Mathematical Contest in Modeling) — Meritorious Winner (M奖)
+- 🏅 **MCM/ICM** (Mathematical Contest in Modeling) — Meritorious Winner
 - 🥉 **Kaggle** — Bronze Medal
-- 📜 **Patent** — *LLM-Driven Autonomous Intelligent Firewall*（一种大语言模型驱动的自主智能防火墙架构）
+- 📜 **Patent** — *LLM-Driven Autonomous Intelligent Firewall*
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2" />
 
